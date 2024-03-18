@@ -87,6 +87,7 @@ require (
 	github.com/sethvargo/go-password v0.2.0
 	github.com/spf13/pflag v1.0.5
 	github.com/tidwall/sjson v1.2.5
+	k8s.io/apiserver v0.29.2
 	sigs.k8s.io/yaml v1.4.0
 	software.sslmate.com/src/go-pkcs12 v0.4.0
 )
@@ -109,6 +110,9 @@ require (
 	github.com/aymanbagabas/go-osc52/v2 v2.0.1 // indirect
 	github.com/bgentry/go-netrc v0.0.0-20140422174119-9fd32a8b3d3d // indirect
 	github.com/blang/semver v3.5.1+incompatible // indirect
+	github.com/blang/semver/v4 v4.0.0 // indirect
+	github.com/btfhernandez/go-client-library-passwordsafe v0.0.0-20240313040922-8eded65bebd9 // indirect
+	github.com/cenkalti/backoff/v4 v4.2.1 // indirect
 	github.com/charmbracelet/bubbles v0.18.0 // indirect
 	github.com/charmbracelet/bubbletea v0.25.0 // indirect
 	github.com/charmbracelet/lipgloss v0.9.1 // indirect

@@ -2705,6 +2705,24 @@ spec:
                       required:
                         - vaultUrl
                       type: object
+                    beyondtrust:
+                      description: TODOBT
+                      properties:
+                        clientid:
+                          type: string
+                        clientsecret:
+                          description: ClientSecret is the secret part of the credential.
+                          type: string
+                        host:
+                          type: string
+                        retrievaltype:
+                          type: string
+                      required:
+                        - clientid
+                        - clientsecret
+                        - host
+                        - retrievaltype
+                      type: object
                     chef:
                       description: Chef configures this store to sync secrets with chef server
                       properties:
@@ -7952,6 +7970,24 @@ spec:
                           type: string
                       required:
                         - vaultUrl
+                      type: object
+                    beyondtrust:
+                      description: TODOBT
+                      properties:
+                        clientid:
+                          type: string
+                        clientsecret:
+                          description: ClientSecret is the secret part of the credential.
+                          type: string
+                        host:
+                          type: string
+                        retrievaltype:
+                          type: string
+                      required:
+                        - clientid
+                        - clientsecret
+                        - host
+                        - retrievaltype
                       type: object
                     chef:
                       description: Chef configures this store to sync secrets with chef server
